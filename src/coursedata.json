@@ -1,0 +1,88 @@
+[
+    {
+      "id": "oracle DB",
+      "thumbnail":"https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761862/course/oracle-db_nvpnep.png",
+      "brand":"oracle",
+      "title":"oracle DB",
+      "short_dec" : "This course will provide you instructions on using SharePoint Online, including Team Sites and OneDrive for Business",
+      "subscription_type":"Free",
+      "url":"mssharepoint",
+
+      "curiculam": "this is oracle curiculam tab",
+      "review": "this is oracle review tab",
+      "discription": {
+        "image_url": "https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761862/course/oracle-db_nvpnep.png",
+        "para_1": "Several teams employ SharePoint lists to access, share, and cooperate about organized data.  So, the ability to form apps utilizing PowerApps that take advantage of SharePoint lists as a data source was an essential capability.",
+        "para_2": "Power Apps is a part of the Microsoft 365 suite, but it’s separated from a SharePoint. Power Apps is created to work with a wide variety of database sources; it can surely be connected to any SharePoint list, library, or One Drive, enabling you to extract or store information without any databases and SQL knowledge. Additionally, it is entirely integrated into the SharePoint web and mobile experience, that is itself connected to the data stored in SharePoint lists.",
+        "main_tit": "main-course" ,
+        "cours_list": {
+         "li_1": " Build a flow to approve and log your SharePoint content",
+         "li_2": "Customizing SharePoint List Forms with PowerApps",
+         "li_3": "Building a standalone PowerApps App with SharePoint as a data source",
+         "li_4": "What is Power Automate and how does it work with SharePoint",
+         "li_5":  "Build a flow to approve and log your SharePoint content",
+         "li_6": "Build a Flow to import a File, create items, post to Teams, and error checking",
+         "li_7": "Connect Power Apps and Flow to make a PDF of your SharePoint data"
+        }
+        }
+    },
+    {
+             "id": "MS SharePoint",
+             "thumbnail":"https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761863/course/MS-SharePoint_hbgi5w.jpg",
+             "brand":"Microsoft",
+             "title":"MS SharePoint",
+             "short_dec" : "This course will provide you instructions on using SharePoint Online, including Team Sites and OneDrive for Business",
+             "subscription_type":"Free",
+             "url":"mssharepoint",
+
+             "curiculam": "this is ms curiculam tab",
+             "review": "this is ms review tab",
+             "discription": {
+               "image_url": "https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761863/course/MS-SharePoint_hbgi5w.jpg",
+               "para_1": "Several teams employ SharePoint lists to access, share, and cooperate about organized data.  So, the ability to form apps utilizing PowerApps that take advantage of SharePoint lists as a data source was an essential capability.",
+               "para_2": "Power Apps is a part of the Microsoft 365 suite, but it’s separated from a SharePoint. Power Apps is created to work with a wide variety of database sources; it can surely be connected to any SharePoint list, library, or One Drive, enabling you to extract or store information without any databases and SQL knowledge. Additionally, it is entirely integrated into the SharePoint web and mobile experience, that is itself connected to the data stored in SharePoint lists.",
+               "main_tit": "main-course" ,
+               "cours_list": {
+                "li_1": " Build a flow to approve and log your SharePoint content",
+                "li_2": "Customizing SharePoint List Forms with PowerApps",
+                "li_3": "Building a standalone PowerApps App with SharePoint as a data source",
+                "li_4": "What is Power Automate and how does it work with SharePoint",
+                "li_5":  "Build a flow to approve and log your SharePoint content",
+                "li_6": "Build a Flow to import a File, create items, post to Teams, and error checking",
+                "li_7": "Connect Power Apps and Flow to make a PDF of your SharePoint data"
+               }
+               }
+               
+      },
+      {
+        "id": "store procedure database",
+        "thumbnail":"https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761862/course/store-procedure-database_kobas5.jpg",
+        "brand":"oracle",
+        "title":"store procedure database",
+        "short_dec" : "This course will provide you instructions on using SharePoint Online, including Team Sites and OneDrive for Business",
+        "subscription_type":"Free",
+        "url":"mssharepoint",
+
+        "curiculam": "this is sharepoint curiculam tab ,this is sharepoint curiculam tab",
+        "review": "this is sharepoint review tab",
+        "discription": {
+        "image_url": "https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761862/course/store-procedure-database_kobas5.jpg",
+        "para_1": "Several teams employ SharePoint lists to access, share, and cooperate about organized data.  So, the ability to form apps utilizing PowerApps that take advantage of SharePoint lists as a data source was an essential capability.",
+        "para_2": "Power Apps is a part of the Microsoft 365 suite, but it’s separated from a SharePoint. Power Apps is created to work with a wide variety of database sources; it can surely be connected to any SharePoint list, library, or One Drive, enabling you to extract or store information without any databases and SQL knowledge. Additionally, it is entirely integrated into the SharePoint web and mobile experience, that is itself connected to the data stored in SharePoint lists.",
+        "main_tit": "main-course" ,
+        "cours_list": {
+         "li_1": " Build a flow to approve and log your SharePoint content",
+         "li_2": "Customizing SharePoint List Forms with PowerApps",
+         "li_3": "Building a standalone PowerApps App with SharePoint as a data source",
+         "li_4": "What is Power Automate and how does it work with SharePoint",
+         "li_5":  "Build a flow to approve and log your SharePoint content",
+         "li_6": "Build a Flow to import a File, create items, post to Teams, and error checking",
+         "li_7": "Connect Power Apps and Flow to make a PDF of your SharePoint data"
+        }
+        },
+        "target_audiance_heading": "What is the target audience?",
+        "target_audiance_para": "In the world of the information worker, you will handle information that is probably stored across different software suites, like SharePoint, Salesforce, Excel file, Access database, … Typically, you would like your end-users to be able to browse and/or modify this data in a general user-friendly, and preferably mobile, way. Microsoft Power Apps allows people, without any development skills, to build applications that are mobile-friendly on top of their data. Allowing other people to use the built application to browse the data and maybe even modify it."
+
+ }
+ 
+]
