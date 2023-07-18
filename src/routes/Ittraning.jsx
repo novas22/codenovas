@@ -49,7 +49,7 @@ const Ittraning = () => {
         <TrainingTitle className="it-title">IT Training</TrainingTitle>
         <TrainingCol1 className="Training-col1">
           <TrainingContent1 className="Training-content1">
-            <h1>Learn and build your skills with IT Profession</h1>
+            <h1>Unlock Your Potential for a Successful Future</h1>
           </TrainingContent1>
         </TrainingCol1>
         <TrainingImageWrapper src={TrainingImage} alt="consulting-img" />

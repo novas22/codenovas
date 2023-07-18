@@ -14,15 +14,24 @@ const AboutUs = () => {
         <Grid item xs={12}>
           <Typography variant="subtitle1">Purpose</Typography>
           <Typography variant="body1">
-            Code nova is an educational and sports website for guests, subscribers, collaborators, and students. It provides comprehensive courses in various domains, allowing users to learn or teach the entire course or use specific sections as a reference through videos or text. Additionally, it caters to sports fans by offering live or highlight coverage of NFL and Premier League games.
+          Code Nova is your premier online learning platform, offering a wide range of educational opportunities. 
+          Whether you're looking to enhance your programming skills, dive into data science, explore MuleSoft integration,
+           or delve into SQL databases, we have the courses you need.
           </Typography>
         </Grid>
 
         <Grid item xs={12}>
-          <Typography variant="subtitle1">Features</Typography>
+          <Typography variant="subtitle1">Benefits</Typography>
           <ul className="feature-list">
-            <li>Online Courses with full discount systems</li>
-            <li>Online Certificates which can be used worldwide</li>
+          <li>Extensive Course Catalog: Access a diverse range of courses covering various subjects and technologies.</li>
+    <li>High-Quality Content: Learn from engaging video tutorials and comprehensive written resources.</li>
+    <li>Flexibility and Convenience: Study at your own pace, anytime and anywhere.</li>
+    <li>Interactive Learning Community: Engage with a vibrant community of learners, exchanging ideas and insights.</li>
+    <li>Expert Instructors: Learn from industry professionals who are passionate about teaching.</li>
+    <li>Personalized Learning Paths: Tailor your learning journey to your specific goals and interests.</li>
+    <li>Recognition and Certificates: Earn certificates of completion to showcase your achievements.</li>
+    <li>Affordable Membership Options: Access additional benefits with our membership plans.</li>
+    <li>Continuous Updates and Support: Stay up to date with the latest content and receive ongoing support.</li>
           </ul>
         </Grid>
 
@@ -55,11 +64,15 @@ const AboutUs = () => {
             </div>
             <div className="column4">
               <img height="300" width="400" src="https://i1.rgstatic.net/publication/325513987_Certificate_of_Achievement_Microsoft_Excel_for_the_Data_Analyst_Microsoft_United_States/links/5b11989b0f7e9b498102d97a/largepreview.png" alt="m-certificate" /><br />
-              <Typography variant="h6">Microsoft Certified</Typography>
+              <Typography variant="h6">PowerBI Certified</Typography>
             </div>
             <div className="column5">
               <img height="300" width="400" src="https://discussions.apple.com/content/attachment/117412040" alt="a-certificate" /><br />
-              <Typography variant="h6">Apple Certified</Typography>
+              <Typography variant="h6">Oracle Certified</Typography>
+            </div>
+            <div className="column5">
+              <img height="300" width="400" src="https://discussions.apple.com/content/attachment/117412040" alt="a-certificate" /><br />
+              <Typography variant="h6">Mulesoft Certified</Typography>
             </div>
           </div>
         </Grid>

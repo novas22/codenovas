@@ -1,12 +1,12 @@
 [
     {
-      "id": "oracle DB",
-      "thumbnail":"https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761862/course/oracle-db_nvpnep.png",
-      "brand":"oracle",
-      "title":"oracle DB",
-      "short_dec" : "This course will provide you instructions on using SharePoint Online, including Team Sites and OneDrive for Business",
-      "subscription_type":"Free",
-      "url":"mssharepoint",
+      "id": "MuleSoft",
+      "thumbnail":"../img/mulesoftpic.jpg",
+      "brand":"Salesforce",
+      "title":"MuleSoft Development",
+      "short_dec" : "Gain practical experience in MuleSoft development with this immersive course. Learn to build robust integrations, design and develop APIs, transform data, and deploy MuleSoft applications. Master the MuleSoft Anypoint Platform and become proficient in handling complex integration scenarios.",
+      "subscription_type":"Paid",
+      "url":"hands-on-mulesoft-development",
 
       "curiculam": "this is oracle curiculam tab",
       "review": "this is oracle review tab",
@@ -27,13 +27,22 @@
         }
     },
     {
-             "id": "MS SharePoint",
-             "thumbnail":"https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761863/course/MS-SharePoint_hbgi5w.jpg",
-             "brand":"Microsoft",
-             "title":"MS SharePoint",
-             "short_dec" : "This course will provide you instructions on using SharePoint Online, including Team Sites and OneDrive for Business",
+      "id": "Power BI",
+      "thumbnail": "../img/PowerBI-microsoft.jpg",
+      "brand": "Microsoft",
+      "title": "Microsoft Power BI",
+      "short_dec": "Master the art of data visualization and business intelligence with Microsoft Power BI. Learn Power BI basics, create compelling visualizations, design interactive dashboards, and leverage advanced analytics features. Develop the skills to transform raw data into actionable insights and make data-driven decisions.",
+      "subscription_type": "Free",
+      "url": "microsoft-powerbi"
+      },
+    {
+             "id": "Database Developer",
+             "thumbnail":"img/Mule_Certificates.PNG",
+             "brand":"Various",
+             "title":"Database Developer",
+             "short_dec" : "Become a versatile database developer with our comprehensive course. Gain expertise in database design principles, SQL programming, data modeling, performance optimization, and database security. Learn to design efficient database schemas, write complex queries, implement indexing strategies, and ensure data integrity.",
              "subscription_type":"Free",
-             "url":"mssharepoint",
+             "url":"database-developer",
 
              "curiculam": "this is ms curiculam tab",
              "review": "this is ms review tab",
@@ -55,11 +64,11 @@
                
       },
       {
-        "id": "store procedure database",
-        "thumbnail":"https://res.cloudinary.com/duw2d3yeh/image/upload/v1686761862/course/store-procedure-database_kobas5.jpg",
-        "brand":"oracle",
-        "title":"store procedure database",
-        "short_dec" : "This course will provide you instructions on using SharePoint Online, including Team Sites and OneDrive for Business",
+        "id": "MS SharePoint",
+        "thumbnail":"../img/MS_sharepoint-microsoft.jpg",
+        "brand":"Microsoft",
+        "title":"MS SharePoint",
+        "short_dec" : "Learn SharePoint Online and discover its powerful collaboration features. Build and manage SharePoint sites, create and customize document libraries and lists, and leverage Team Sites and OneDrive for Business. Get hands-on experience in creating workflows, managing permissions, and implementing advanced customization to meet your organization's needs.",
         "subscription_type":"Free",
         "url":"mssharepoint",
 
