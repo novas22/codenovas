@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <>
     <Slideshow />
+    <div className='row_flex-container'>
     <div className="row_flex">
 
     <div className="col_2">
@@ -45,6 +46,7 @@ const Home = () => {
            {/* <img height="100%" width="100%" src="https://vignan.ac.in/blog/images/march/placement1.png" alt="training img"/> */}
            <img height="100%" width="100%" src={Placement} alt="training img"/>
       </div>
+    </div>
     </div>
 {/* <Footer /> */}
     </>
