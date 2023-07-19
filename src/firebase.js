@@ -47,29 +47,5 @@ var user_photo;
 const provide = new GoogleAuthProvider();
 // function Redirect(){};
 
-export const SignInWithGoogle = () =>{
 
- 
-  
-  signInWithPopup(auth, provide).then((result)=>{
-    Details = getAdditionalUserInfo(result);
-   user_name = Details.profile.name;
-   user_mail = Details.profile.email;
-   user_photo = Details.profile.picture;
-   window.localStorage.setItem('isSignup',true);
-   window.localStorage.setItem('username',user_name);
-   window.localStorage.setItem('user',user_mail);
-  //  navigate("/");
-    
-    // console.log(user_name+"\n"+user_mail+"\n"+user_photo);
-    window.location.reload(true);
-    // Redirect = () => {
-    //   const navigate = useNavigate();
-    //   navigate("/");
-    // }
-  }).catch((error)=>{
-    console.log(error.stack);
-  })
-}
-
-export { app, auth, db , provide, user_name, user_mail, user_photo };
+export { app, auth, db , provide,signInWithPopup,getAdditionalUserInfo  };
