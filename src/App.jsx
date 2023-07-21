@@ -24,29 +24,9 @@ const CourseDetails = lazy(() => import('./routes/CourseDetails'));
 const Signup = lazy(() => import('./routes/Signup'));
 const StudentSignup = lazy(() => import('./routes/StudSignup'));
 const TeacherSignup = lazy(() => import('./routes/TeacherSignup'));
-const DefaultMobilePage = lazy(() => import('./routes/DefaultMobilePage'));
+// const DefaultMobilePage = lazy(() => import('./routes/DefaultMobilePage'));
 
 const App = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    // Check if the current device is mobile
-    const isMobileDevice = /Mobi/.test(navigator.userAgent);
-    setIsMobile(isMobileDevice);
-  }, []);
-
-  if (isMobile) {
-    return (
-      <Suspense fallback={<div>Loading...</div>}>
-        <Router>
-          <Routes>
-            <Route path="*" element={<DefaultMobilePage />} />
-          </Routes>
-        </Router>
-      </Suspense>
-    );
-  }
-
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Router>
