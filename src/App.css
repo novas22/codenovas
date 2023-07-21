@@ -1258,9 +1258,7 @@ img.css-1ubb0f0{
 }
 .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-4.css-gj1fbr-MuiGrid-root{
   max-width: 100%;
-
-
-
+  width: 100%;
 }
 }
 /*signup*/
@@ -1281,6 +1279,12 @@ img.css-1ubb0f0{
   margin: 30px;
  /*background:#f7f8f8;*/
 }
+@media only screen and (max-width: 767px) {
+.container{
+  width: 90%;
+  justify-content: center;
+}}
+    
 
 .form-box{
   max-width:550px;
@@ -1459,7 +1463,19 @@ img.css-1ubb0f0{
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 767px) {
+  .SignupPage{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  justify-content: center;
+  align-items: center;
+}
 
+}
 .StudentSection{
 
   /* background-color: blueviolet; */
