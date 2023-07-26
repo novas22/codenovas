@@ -52,10 +52,10 @@ const Ittraning = () => {
   return (
     <TrainingMain>
       <Container maxWidth="sm">
-        <TrainingTitle className="it-title">IT Training</TrainingTitle>
+   
         <TrainingCol1 className="Training-col1">
           <TrainingContent1 className="Training-content1">
-            <h1>Learn and build your skills with IT Profession</h1>
+            <h1>IT Training</h1>
           </TrainingContent1>
         </TrainingCol1>
         <TrainingImageWrapper src={TrainingImage} alt="consulting-img" />
