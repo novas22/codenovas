@@ -1593,6 +1593,15 @@ transition: ease-in-out 200ms;
     grid-template-rows: repeat(6, 1fr); /* Six rows on mobile */
     margin-right: 0.2rem ;
   margin-left: 0.2rem ;
+  
+  .home-main-content-item:nth-child(3) {
+    grid-area: 4; /* On mobile, place it in the 4th row */
+  }
+  
+  .home-main-content-item:nth-child(4) {
+    grid-area: 3; /* On mobile, place it in the 3rd row */
+  }
+  
   }
 }
 
