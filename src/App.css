@@ -583,8 +583,8 @@ width: 80%;
   .course-deatails-container{    
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 5%;
     margin-right: 0;
   }
 }
@@ -596,12 +596,16 @@ width: 80%;
 }
 @media only screen and (max-width: 767px) {
   .course-deatails-col1{
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
   
   }
+  .course-deatails-col1 h1{
+    font-size: 2rem;  
+    justify-content: center;
+}
  
 }
 .course-deatails-col2{
