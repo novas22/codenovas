@@ -52,10 +52,10 @@ const ItPlacement = () => {
   return (
     <PlacementMain>
       <Container maxWidth="sm">
-        <PlacementTitle className="it-title">IT PLACEMENT</PlacementTitle>
+       
         <PlacementCol1 className="placement-col1">
           <PlacementContent1 className="placement-content1">
-            <h1>Expert choice IT Placement services in one place</h1>
+            <h1>IT PLACEMENT</h1>
           </PlacementContent1>
         </PlacementCol1>
         <PlacementImageWrapper src={PlacementImage} alt="consulting-img" />
