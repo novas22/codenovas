@@ -1545,10 +1545,22 @@ img.css-1ubb0f0{
   /* background-color: #186f83; */
   padding: 3rem;
 }
-.logout-panel{
+.logout-panel {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+
+  .logout-panel h2 {
+    font-size: medium;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
 }
 .StudentSection:hover{
 scale: 1.02;
