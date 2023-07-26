@@ -39,7 +39,13 @@ const TrainingIcon = styled('i')({
 const TrainingImageWrapper = styled('img')({
   height: '300px',
   width: '400px',
-  marginBottom: '20px',
+
+  /* Styles for mobile */
+  '@media (max-width: 767px)': {
+    height: '250px',
+    width: '100%',
+    objectFit: 'cover',
+  },
 });
 
 const Ittraning = () => {

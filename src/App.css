@@ -7,6 +7,54 @@
 body {
   font-family: sans-serif;
 }
+/* Services.css */
+
+.services-container {
+  padding: 20px;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-media {
+  height: 300px; /* Adjust the height of the card images */
+  object-fit: cover;
+}
+
+.service-card h3.learn-more {
+  margin-top: 10px;
+  text-align: center;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+/* Media query for adjusting the card layout on small screens */
+@media (max-width: 600px) {
+  .service-card {
+    width: 100%;
+  }
+  .card-media {
+    height: 200px; /* Adjust the height of the card images */
+    object-fit: cover;
+    
+  }
+  .services-container {
+    padding: 5  px;
+  }
+}
 
 header {
   /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05); */
@@ -402,6 +450,8 @@ button span {
 }
 .home_slider_captions > p{
   font-size: 17px;
+  justify-content: center;
+  
 }
 .home_slider_captions > p:first-child{
   font-size: 34px;
@@ -415,10 +465,13 @@ button span {
   .home_slider_captions > p {
     font-size: 14px;
     margin: 2rem;
+    justify-content: center;
+    
   }
 
   .home_slider_captions > p:first-child {
     font-size: 28px;
+   justify-content: center;
     margin: 2rem;
   }
 }
@@ -738,7 +791,7 @@ ul.nav li.active {
 }
 @media only screen and (max-width: 767px) {
 .course-desc-tab > p,h1{
-  text-align:justify;
+  text-align:center;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1021,7 +1074,7 @@ padding: 50px;
 
 .content,.aboutus-heading,.aboutus-para{
    margin-bottom: 20px;
-   text-align:justify}
+   text-align:left}
 
 .col1{
   width:47%;
@@ -1521,4 +1574,51 @@ transition: ease-in-out 200ms;
   cursor: pointer;
   color: blue;
   margin-top: 10px;
+}
+
+.home-main-content-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns on desktop */
+  grid-template-rows: repeat(3, 1fr); /* Three rows on desktop */
+  gap: 20px; /* Adjust the gap as per your preference */
+  margin-right: 3rem ;
+  margin-left: 3rem ;
+
+  /* Media query for mobile view */
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr; /* One column on mobile */
+    grid-template-rows: repeat(6, 1fr); /* Six rows on mobile */
+    margin-right: 0.2rem ;
+  margin-left: 0.2rem ;
+  }
+}
+
+/* Additional styling for the grid items */
+.home-main-content-item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  
+  /* Add any other styles you want for the grid items */
+}
+
+/* Additional styling for paragraph inside grid items */
+.home-main-content-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Additional styling for images inside grid items */
+.home-main-content-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Media query for adjusting font size on mobile view */
+@media (max-width: 767px) {
+  .home-main-content-item p {
+    font-size: 14px;
+  }
 }

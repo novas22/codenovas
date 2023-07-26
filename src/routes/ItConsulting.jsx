@@ -11,10 +11,12 @@ const ConsultingMain = styled('div')({
      
      const ConsultingTitle = styled('h2')({
        marginBottom: '20px',
+       justifyContent: 'left',
      });
      
      const ConsultingText = styled(Typography)({
        marginBottom: '20px',
+       textAlign: 'justify',
      });
      
      const ChoresTitle = styled('h3')({
@@ -27,9 +29,17 @@ const ConsultingMain = styled('div')({
      });
      
      const TrainingImg = styled('img')({
-       height: '500px',
-       width: '680px',
-     });
+      /* Styles for desktop */
+      height: '300px',
+  width: '400px',
+
+  /* Styles for mobile */
+  '@media (max-width: 767px)': {
+    height: '250px',
+    width: '100%',
+    objectFit: 'cover',
+  },
+    });
      
 const ItConsulting = () => {
     return (
@@ -37,11 +47,10 @@ const ItConsulting = () => {
  <ConsultingMain className="consulting-main">
       <Container maxWidth="sm">
         <ConsultingTitle className="consulting-title">IT CONSULTANCY</ConsultingTitle>
-        <ConsultingText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget nunc sed augue
-          interdum sagittis. In ut luctus elit. Duis malesuada consectetur arcu, sit amet
-          ullamcorper nunc euismod vitae.
-        </ConsultingText>
+        <TrainingCol2>
+          <TrainingImg src={ConsultingImage} alt="consulting-img" />
+        </TrainingCol2>
+       
         <ChoresTitle className="chores-title">Key Phases:</ChoresTitle>
         <ConsultingText>
           1. Planning and Analysis<br />
@@ -51,14 +60,10 @@ const ItConsulting = () => {
           5. Deployment and Support
         </ConsultingText>
         <ConsultingText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget nunc sed augue
-          interdum sagittis. In ut luctus elit. Duis malesuada consectetur arcu, sit amet
-          ullamcorper nunc euismod vitae.
+        "Expert IT Consulting for Seamless Solutions. Empowering Your Business with Innovative Technology Strategies. Trusted Advice and Customized Solutions for Success."
         </ConsultingText>
-        <ConsultingTitle className="consulting-title">IT Consultancy: Turning techno-troubles into triumphs!</ConsultingTitle>
-        <TrainingCol2>
-          <TrainingImg src={ConsultingImage} alt="consulting-img" />
-        </TrainingCol2>
+      
+       
       </Container>
     </ConsultingMain>    </>
     )
