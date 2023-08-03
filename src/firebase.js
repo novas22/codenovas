@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 // import { Link, useNavigate } from "react-router-dom";
-import { GoogleAuthProvider, getAuth, signInWithPopup,getAdditionalUserInfo } from "firebase/auth";
+import { GoogleAuthProvider, getAuth, signInWithPopup,getAdditionalUserInfo,sendPasswordResetEmail } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 // import firebase from 'firebase/app';
 
@@ -72,4 +72,16 @@ export const SignInWithGoogle = () =>{
   })
 }
 
-export { app, auth, db , provide, user_name, user_mail, user_photo };
+const sendPasswordReset = async (email) => {
+  try {
+    await sendPasswordResetEmail(auth, email);
+    alert("Password reset link sent!");
+  } catch (err) {
+    console.error(err);
+    alert(err.message);
+  }
+};
+
+
+
+export { app, auth, db , provide, user_name, user_mail, user_photo,sendPasswordReset };

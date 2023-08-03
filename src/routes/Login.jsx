@@ -162,7 +162,7 @@ const handleSubmission = () => {
           
           <div className="rem-frgotpass">
              <label><input type="checkbox"/>Remember me</label>
-             <Link to="/" ><h5>Forgot password</h5></Link>
+             <Link to="/forpass" ><h5>Forgot password</h5></Link>
           </div>
           <button className="login-submit" disabled={submitButtonDisabled} onClick={handleSubmission}>Login</button><br></br>
           {/* <button className="login-submit" disabled={submitButtonDisabled} onClick={handleSubmission}>Login</button><br></br> */}
