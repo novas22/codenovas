@@ -45,6 +45,8 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
+  justify-content: space-between;
+  
 }
 
 .logo {
@@ -341,7 +343,21 @@ button span {
   align-items: center;
   
 }
+@media only screen and (max-width: 767px) {
+  .row_flex,
+  .row_flex3,
+  .row_flex4 {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .row_flex-container {
 
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
 .col_2,.col_3,.col_4{
   width: 45%;
  } 
@@ -367,6 +383,23 @@ button span {
 .home_slider_captions > p:first-child{
   font-size: 34px;
 }
+@media only screen and (max-width: 767px) {
+  .home_slider_captions {
+    gap: 4%;
+    
+  }
+
+  .home_slider_captions > p {
+    font-size: 14px;
+    margin: 2rem;
+  }
+
+  .home_slider_captions > p:first-child {
+    font-size: 28px;
+    margin: 2rem;
+  }
+}
+
 .footer_area{
   display: flex;
   align-items: center;

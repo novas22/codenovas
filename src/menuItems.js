@@ -62,7 +62,7 @@ export const menuItems = [
     // ],
   },  
   {
-    title: 'Member Login',
+    title: 'Login',
     url: '/login',
 
   }

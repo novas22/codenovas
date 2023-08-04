@@ -47,8 +47,8 @@ var user_photo;
 const provide = new GoogleAuthProvider();
 // function Redirect(){};
 
-export const SignInWithGoogle = () =>{
 
+<<<<<<< HEAD
  
   
   signInWithPopup(auth, provide).then((result)=>{
@@ -85,3 +85,6 @@ const sendPasswordReset = async (email) => {
 
 
 export { app, auth, db , provide, user_name, user_mail, user_photo,sendPasswordReset };
+=======
+export { app, auth, db , provide,signInWithPopup,getAdditionalUserInfo  };
+>>>>>>> 1df40b0977f645f3c2e37838f765641acbec999f

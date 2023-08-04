@@ -3,12 +3,34 @@ import Google from "../img/btn_google_img.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
-import {SignInWithGoogle,user_name, user_mail} from "../firebase.js"
+import { auth ,provide,signInWithPopup,getAdditionalUserInfo  } from "../firebase";
+// import {user_name, user_mail} from "../firebase.js"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+
+  const navigate = useNavigate();
+  const SignInWithGoogle = () =>{
+
+ 
+    signInWithPopup(auth, provide).then((result)=>{
+     const Details = getAdditionalUserInfo(result);
+     const user_name = Details.profile.name;
+     const user_mail = Details.profile.email;
+     const user_photo = Details.profile.picture;
+     window.localStorage.setItem('isSignup',true);
+     window.localStorage.setItem('username',user_name);
+     window.localStorage.setItem('user',user_mail);
+     navigate("/");
+    
+   
+    }).catch((error)=>{
+      console.log(error.stack);
+    })
+  }
+
 
 
   const [isSignup, setIsSignup] = useState(false)
