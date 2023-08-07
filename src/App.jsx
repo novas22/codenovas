@@ -24,7 +24,7 @@ const CourseDetails = lazy(() => import('./routes/CourseDetails'));
 const Signup = lazy(() => import('./routes/Signup'));
 const StudentSignup = lazy(() => import('./routes/StudSignup'));
 const TeacherSignup = lazy(() => import('./routes/TeacherSignup'));
-
+const ForgetPassword = lazy(() => import('./routes/ForgetPassword'));
 const App = () => {
   return (
     <>
@@ -52,6 +52,7 @@ const App = () => {
               <Route path="signup" element={<Signup />} />
               <Route path="student_signup" element={<StudentSignup />} />
               <Route path="teacher_signup" element={<TeacherSignup />} />
+              <Route path="forpass" element={<ForgetPassword/>}/>
               <Route path="*" element={<p>Design Not found!</p>} />
             </Route>
           </Routes>
